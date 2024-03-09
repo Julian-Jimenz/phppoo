@@ -15,4 +15,8 @@ class Cuenta{
         $this->nombre= $tipoInteres;
         $this->nombre= $saldo;
     }
+
+    public function setNombre($nombre){
+        $this->nombre = $nombre ;
+    }
 }
